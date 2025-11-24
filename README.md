@@ -1,12 +1,12 @@
 Lung Disease Prediction App 🫁
 Project Link
 
-Live app
+Live app link
+https://lungdiseaseprediction-5e5sqwejrheepmtyuje45v.streamlit.app/
 
-Dataset
+Dataset link
+https://www.kaggle.com/datasets/fatemehmehrparvar/lung-disease/data
 
-“Lung Disease” Kaggle Dataset
- by Fatemeh Mehrparvar
 
 📘 Overview
 
