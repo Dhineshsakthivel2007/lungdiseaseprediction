@@ -69,7 +69,8 @@ if uploaded_file:
         st.image(image, use_container_width=True)
         st.subheader("🩺 Diagnosis Result")
         st.success(prediction)
-        st.write(f"{class_names[0]}: {probs[0]*100:.2f}%")
+        for i, prob in enumerate(probs):
+            st.write(f"{class_names[i]}: {prob*100:.2f}%")
     
     with col2:
         st.subheader("Grad-CAM Heatmap")
